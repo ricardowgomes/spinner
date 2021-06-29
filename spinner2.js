@@ -1,6 +1,6 @@
 const spiningSlash = ['\r|   ', '\r/   ', '\r-   ', '\r\\   ', '\r|   ', '\r/   '];
 
-const typewriter = (arr, delay) => {
+const spinner = (arr, delay) => {
   let char = 0;
 
   (function animation() {
@@ -16,4 +16,4 @@ const typewriter = (arr, delay) => {
   })();
 };
 
-typewriter(spiningSlash, 300);
+spinner(spiningSlash, 300);
